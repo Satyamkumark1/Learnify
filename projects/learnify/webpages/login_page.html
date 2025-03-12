@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Personalized Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="logo">
+                <img src="https://img.freepik.com/premium-vector/graduation-logo-with-three-characters-graduation-hat-open-book_638035-19.jpg?w=740" alt="Learning Platform Logo">
+                <h1>Welcome to Your Learning Hub</h1>
+            </div>
+            <form id="loginForm" action="/login" method="POST">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="register.html">Sign up here</a></p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            window.location.href = 'main_page.html'; // Redirect to main page
+        });
+    </script>
+  
+</body>
+</html>

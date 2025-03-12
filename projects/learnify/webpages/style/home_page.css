@@ -1,0 +1,99 @@
+:root {
+    --primary-color: #4caf50;
+    --secondary-color: #f4f4f4;
+    --text-color: #333;
+    --accent-color: #ff9800;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+.header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 0;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.section {
+    padding: 4rem 2rem;
+}
+h1, h2 {
+    color: var(--primary-color);
+}
+.features-container, .courses-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.courses-container:hover {
+    cursor: pointer;
+
+}
+.feature-card, .course-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.feature-card img, .course-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contact-form label {
+    color: var(--text-color);
+}
+.contact-form input, .contact-form textarea, .contact-form button {
+    padding: 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+.contact-form input, .contact-form textarea {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+.contact-form button {
+    background-color: var(--accent-color);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+.course-card :hover {
+    width: 150px;
+    transition: transform 0.3s ease;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Tracker</title>
+    <link rel="stylesheet" href="style/fullStack_Progress.css"
+</head>
+<body>
+    <div class="container">
+        <div class="img-section">
+            <img src="https://timesproweb-static-backend-prod.s3.ap-south-1.amazonaws.com/Full_Stack_Developer_1_1ca9fe8ca7.webp" alt="Learning Illustration">
+        </div>
+        <h1>Progress Tracker</h1>
+        <div id="courses">
+            <div class="course">
+                <span>HTML Basics</span>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 30%">30%</div>
+                </div>
+                <button onclick="updateProgress(this, 10)">+10%</button>
+                <span class="tick">✔️</span>
+                <div class="congratulations">🎉 Congratulations! You've completed HTML Basics! 🎉</div>
+            </div>
+            <div class="course">
+                <span>CSS Fundamentals</span>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 50%">50%</div>
+                </div>
+                <button onclick="updateProgress(this, 10)">+10%</button>
+                <span class="tick">✔️</span>
+                <div class="congratulations">🎉 Congratulations! You've completed CSS Fundamentals! 🎉</div>
+            </div>
+            <div class="course">
+                <span>JavaScript Essentials</span>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 20%">20%</div>
+                </div>
+                <button onclick="updateProgress(this, 10)">+10%</button>
+                <span class="tick">✔️</span>
+                <div class="congratulations">🎉 Congratulations! You've completed JavaScript Essentials! 🎉</div>
+            </div>
+            <div class="course">
+                <span>React Or Angular</span>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 20%">20%</div>
+                </div>
+                <button onclick="updateProgress(this, 10)">+10%</button>
+                <span class="tick">✔️</span>
+                <div class="congratulations">🎉 Congratulations! You've completed FrameWorks Essentials! 🎉</div>
+            </div>
+            <div class="course">
+                <span>Node-Js and Express-Js</span>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 20%">20%</div>
+                </div>
+                <button onclick="updateProgress(this, 10)">+10%</button>
+                <span class="tick">✔️</span>
+                <div class="congratulations">🎉 Congratulations! You've completed Node-Js and Express-Js Essentials! 🎉</div>
+            </div>
+            <div class="course">
+                <span>MySQL Or MongoDB</span>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 20%">20%</div>
+                </div>
+                <button onclick="updateProgress(this, 10)">+10%</button>
+                <span class="tick">✔️</span>
+                <div class="congratulations">🎉 Congratulations! You've completed MySQL Or MongoDB Essentials! 🎉</div>
+            </div>
+        </div>
+        <div id="allComplete" class="all-complete">🎯 Congratulations! You've completed all courses! 🎯</div>
+    </div>
+
+    <!-- Confetti Container -->
+    <div id="confettiContainer" class="confetti"></div>
+
+   <script src="src/fullStack_Progress.js"></script>
+</body>
+</html>

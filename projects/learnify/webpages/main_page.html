@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Platform</title>
+    <link rel="stylesheet" href="style/main_page.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Learnify</h2>
+        
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>Learning Made Easy - Learnify</h1>
+            <input type="text" placeholder="Search for a course" id="search-bar">
+        </header>
+
+        <section class="courses">
+            <div class="card" data-category="js" onclick="redirectToPage('fullstack_page.html')">
+                <img src="https://www.syncfusion.com/blogs/wp-content/uploads/2020/07/Top-6-Front-End-Web-Development-Tools-to-Increase-Your-Productivity-in-2020-1.jpg" alt="Canvas Clone">
+                <h3>WEB DEVELOPMENT </h3>
+                <p>Chapter: 0</p>
+            </div>
+            <div class="card" data-category="mysql">
+                <img src="https://jaro-website.s3.ap-south-1.amazonaws.com/2024/07/960x0.webp" alt="Finance Platform">
+                <h3>DATA SCIENCE </h3>
+                <p>Chapter: 0</p>
+            </div>
+            <div class="card" data-category="reactjs">
+                <img src="https://www.enisa.europa.eu/sites/default/files/styles/large/public/news_images/shutterstock_495741700.jpg?itok=hgaVBXMI" alt="Duolingo Clone">
+                <h3>BLOCK CHAIN</h3>
+                <p>Chapter: 0</p>
+            </div>
+            <div class="card" data-category="mongodb">
+                <img src="https://miro.medium.com/max/540/1*J_EXEmUkOcg-rgzJudUhZQ.png" alt="Duolingo Clone">
+                <h3>DATA ANALYSIS</h3>
+                <p>Chapter: 0</p>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function redirectToPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+    </script>
+</body>
+</html>
+
