@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer Roadmap</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 1em;
+            line-height: 1.8;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background-color: #ffffff;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            padding: 3em;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 3em;
+            text-align: center;
+            font-size: 3em;
+            font-weight: bold;
+            border-bottom: 5px solid #16a085;
+            border-radius: 15px 15px 0 0;
+        }
+
+        h1, h2, h3 {
+            color: #34495e;
+            margin-bottom: 1.5em;
+        }
+
+        p, li {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 1.2em;
+        }
+
+        ul {
+            padding-left: 2em;
+            margin-bottom: 1.5em;
+        }
+
+        li {
+            margin-bottom: 0.8em;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #16a085;
+        }
+
+        .note-box, .tool-box {
+            background: #eef2f3;
+            border-left: 5px solid #2575fc;
+            padding: 1.8em;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 1em;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2em;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2575fc;
+            color: white;
+        }
+
+        a {
+            color: #2575fc;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #6a11cb;
+            text-decoration: underline;
+        }
+
+        .image-container img {
+            max-width: 40%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.08);
+        }
+
+        @media (max-width: 768px) {
+            header {
+                font-size: 2.2em;
+            }
+
+            .container {
+                padding: 2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                font-size: 1.8em;
+                padding: 1.5em;
+            }
+
+            .container {
+                padding: 1.2em;
+            }
+
+            h1, h2, h3 {
+                font-size: 1.5em;
+            }
+        }
+
+        strong, b {
+            position: relative;
+            display: inline-block;
+        }
+
+        strong:hover::after, b:hover::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            width: 100%;
+            height: 3px;
+            background-color: #2575fc;
+            animation: underline 0.3s ease-in-out forwards;
+        }
+
+        @keyframes underline {
+            from {
+                transform: scaleX(0);
+            }
+            to {
+                transform: scaleX(1);
+            }
+        }
+    </style>
+    
+    
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            DevOps By- Learnify
+
+        </header>
+        <!-- <button onclick="window.location.href='/projects/learnify/proges tracker/fullstack_progres.html';" target="_blank";>have to change</button> -->
+
+        
+
+        <div class="content-box">
+            <h1>Complete DevOps Roadmap — Beginner to Advanced</h1>
+            <br>
+        <p>
+            <strong>DevOps</strong> is a set of practices that bridges the gap between 
+            <strong>Software Development</strong> (Dev) and <strong>IT Operations</strong> (Ops). 
+            It aims to deliver high-quality software efficiently and swiftly by fostering 
+            collaboration, communication, and integration between development teams and 
+            operations teams.
+        </p>
+        <p>
+            The core focus of DevOps is to streamline the <strong>software development lifecycle</strong>, 
+            ensuring faster delivery of software releases, improved automation, and 
+            continuous feedback. By embracing DevOps principles, teams can enhance 
+            productivity, reduce errors, and maintain a seamless deployment pipeline.
+        </p>>
+        </div>
+        <div class="image-container">
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230416201559/DevOps-Roadmap.webp" alt="DevOps- Roadmap">
+        </div>
+        
+        <div class="content-box2">
+            <p>
+                Now, you might be wondering — <strong>how much does a DevOps Engineer earn?</strong>
+            </p>
+    
+            <ul>
+                <li>The average salary of a DevOps Engineer is around <span class="highlight">9-10 LPA</span> and can go up to <span class="highlight">20 LPA</span>.</li>
+                <li>For senior DevOps Engineers, salaries range from <span class="highlight">16-18 LPA</span> and can exceed <span class="highlight">35 LPA</span> per year.</li>
+            </ul>
+    
+            <p>
+                In this article, we’ll explore a step-by-step roadmap on 
+                <strong>how to become a DevOps Engineer</strong>. 
+                So, let’s embark on this exciting journey together!
+            </p>
+            <h1>Select a Programming Language (Week - 1)</h1>
+        <p>Choosing a programming language can be a challenging task for a developer. However, for starting a career in the IT industry, it is recommended to select a primary programming language to build a strong foundation and pursue further growth in the software industry.</p>
+        <p>In this journey of learning <strong>DevOps</strong>, we will move forward by choosing one of the two languages: <strong>Python</strong> or <strong>Go (Golang)</strong>. Both languages are known for their simplicity, easy-to-understand syntax, and promising career opportunities.</p>
+        
+        <h2>Why Python or Go?</h2>
+        <ul>
+            <li><strong>Python:</strong> Widely used for automation, scripting, data analysis, and web development. It has a massive community and countless libraries.</li>
+            <li><strong>Go (Golang):</strong> Known for its performance, concurrency support, and scalability. It is ideal for cloud computing and microservices.</li>
+        </ul>
+
+        <h2>Key Topics to Master</h2>
+        <p>To gain a solid grasp of a programming language, focus on these essential topics:</p>
+        <ul>
+            <li>Basic Syntax and Structure</li>
+            <li>Data Types and Variables</li>
+            <li>Control Flow (Conditionals and Loops)</li>
+            <li>Functions and Modules</li>
+            <li>Error Handling</li>
+            <li>Object-Oriented Programming (OOP)</li>
+            <li>File Handling</li>
+            <li>Libraries and Packages</li>
+            <li>Concurrency and Multithreading (especially for Go)</li>
+        </ul>
+
+        <p>By mastering these topics, you'll build a strong foundation and be well-prepared to dive deeper into DevOps tools and practices.</p>
+        <h2>Key Topics to Master</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Python</th>
+                    <th>GoLang</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/introduction-to-python/" target="_blank";>Introduction to Python</a> </td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/#Identifiers%20and%20Keywords" target="_blank";>Identifiers and Keywords</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/input-and-output-in-python/" target="_blank";>Input/Output</a></td>
+                   
+                        <td><a href="https://www.geeksforgeeks.org/input-and-output-in-python/" target="_blank";>Data Types</a>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/python-operators/" target="_blank";>Operators</a></td>
+                    <td><a href="" target="_blank";>Variables</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/python-set-3-strings-lists-tuples-iterations/?ref=lbp" >Data Types</a></td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/">Constants</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/python-if-else/?ref=lbp">Control Flow</a></td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/";>Operators</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/python3-if-if-else-nested-if-if-elif-statements/">Conditionals</a></td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/#if-else%20Statement";>if-else Statement</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/loops-in-python/">Loops</a>/td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/#for%20loop">for loop<</a>/td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/python-functions/">Functions</td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/#Loop%20Control%20Statements">Loop Control Statements</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/python-modules/">Modules</td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/#Switch%20Statement">Switch Statement</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/python-oops-concepts/">Python OOP</td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/">Arrays</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/python-exception-handling/">Exception Handling</td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/">Slices</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/file-handling-python/">File Handling/td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/">Functions</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/python-regex/">Python Regex</td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/">Structures</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/python-collections-module/">Python Collections</a></td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/">Packages</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.geeksforgeeks.org/os-module-python-examples/?ref=lbp">Python Advance</td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/">Pointers</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/">Methods</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/#Methods%20vs%20Functions">Methods vs Functions</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>I<a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/#Methods%20vs%20Functions">interfaces</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.geeksforgeeks.org/golang-tutorial-learn-go-programming-language/#Methods%20vs%20Functions">Concurrency – Goroutines</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="note-box">
+            <strong>Note:</strong> We suggest you to choose any one programming language of the two.
+        </div>
+
+        <p>By mastering these topics, you'll build a strong foundation and be well-prepared to dive deeper into DevOps tools and practices.</p>
+
+        <h2>OS Concepts (Week - 2)</h2>
+        <p>Having strong fundamentals is crucial as you'll work directly with software systems. Understanding Operating Systems (OS) concepts will help you:</p>
+        <ul>
+            <li>Understand system architecture.</li>
+            <li>Automate and configure management.</li>
+            <li>Troubleshoot and debug effectively.</li>
+            <li>Apply the best security measures.</li>
+        </ul>
+
+        <h3>2.A - Operating Systems</h3>
+        <ul>
+            <li><a href="https://www.geeksforgeeks.org/introduction-of-operating-system-set-1/" target="_blank"; style="color: #09c2c2;">OS Basics</a></li>
+            <li><a href="https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/?ref=lbp" target="_blank"; style="color: #09c2c2;">CPU Scheduling</a></li>
+            <li><a href="https://www.geeksforgeeks.org/introduction-of-operating-system-set-1/" target="_blank"; style="color: #09c2c2;">Process Syncronization</a></li>
+            <li><a href="https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/?ref=lbp" target="_blank"; style="color: #09c2c2;">Deadlock</a></li>
+            <li><a href="https://www.geeksforgeeks.org/introduction-to-memory-and-memory-units/?ref=lbp" target="_blank"; style="color: #09c2c2;">Memory Management</a></li>
+            <li><a href="https://www.geeksforgeeks.org/file-systems-in-operating-system/?ref=lbp" target="_blank"; style="color: #09c2c2;">Disk Management</a></li>
+            <li><a href="https://www.geeksforgeeks.org/disk-scheduling-algorithms/?ref=lbp" target="_blank"; style="color: #09c2c2;">Disk Scheduling</a></li>
+            
+            
+        </ul>
+
+        <h3>2.B - Virtualization</h3>
+        <ul>
+            <li>Application Virtualization</li>
+            <li>Network Virtualization</li>
+            <li>Desktop Virtualization</li>
+            <li>Storage Virtualization</li>
+            <li>Server Virtualization</li>
+            <li>Data Virtualization</li>
+        </ul>
+
+        <h3>2.C - Networking Protocols</h3>
+        <ul>
+            <li>HTTP</li>
+            <li>HTTPS</li>
+            <li>TCP/IP</li>
+            <li>FTP / SFTP</li>
+            <li>DNS</li>
+            <li>SMTP</li>
+            <li>SSL / TLS</li>
+            <li>SSH & Port Forwarding</li>
+        </ul>
+
+        <h2>Linux (Week 2 - 3)</h2>
+        <p>For DevOps, mastering Linux is essential as it's widely used for collaboration, automation, and continuous improvement. Key concepts to learn:</p>
+        <ul>
+            <li>Command Line</li>
+            <li>Bash and Shell Scripting</li>
+            <li>Package Management</li>
+            <li>Networking Tools</li>
+            <li>Security Concepts</li>
+        </ul>
+        <h2>SCM (Week - 4)</h2>
+        <p>Source Code Management (SCM) is a vital part of DevOps. It allows tracking and controlling code changes using Version Control Systems (VCS). For this journey, mastering <strong>Git</strong> and <strong>GitHub</strong> is essential.</p>
+        <h3>Git & GitHub Topics:</h3>
+        <ul>
+            <li>Introduction to Git</li>
+            <li>Installation of Git</li>
+            <li>Git Features</li>
+            <li>Git – Life Cycle</li>
+            <li>Git Staging Environment</li>
+            <li>Git vs GitHub</li>
+            <li>Basic Git Commands</li>
+            <li>Working with GitHub Repositories</li>
+            <li>Branching, Merging, and Conflict Resolution</li>
+            <li>Pull Requests and Rebasing</li>
+            <li>Stashing and Cherry Picking</li>
+        </ul>
+
+        <h2>Cloud Computing (Week 5 - 7)</h2>
+        <p>Cloud Computing plays an inevitable role in DevOps, providing workspaces for automation, collaboration, and continuous development. Let’s explore popular platforms:</p>
+
+        <h3>AWS</h3>
+        <ul>
+            <li>Introduction to AWS</li>
+            <li>IAM (Identity and Access Management)</li>
+            <li>EC2 (Elastic Compute Cloud)</li>
+            <li>S3 (Simple Storage Service)</li>
+            <li>Elastic Load Balancing and Auto Scaling</li>
+        </ul>
+
+        <h3>Azure</h3>
+        <ul>
+            <li>Introduction to Azure</li>
+            <li>Virtual Machines and Storage</li>
+            <li>Networking and Monitoring</li>
+            <li>Azure DevOps Integration</li>
+        </ul>
+
+        <h3>GCP</h3>
+        <ul>
+            <li>Introduction to GCP</li>
+            <li>Compute, Storage, and Security Services</li>
+            <li>Networking and Monitoring Tools</li>
+            <li>DevOps with GCP</li>
+        </ul>
+        <h2>Docker (Week 8 - 9)</h2>
+        <p>From scratch, you have learned many things so far. Now, it's time to learn the most famous tool for DevOps developers: <strong>Docker</strong>. It is an open-source containerization platform that helps developers in packaging software applications and their dependencies into small-size containers. It has become an integral tool for the DevOps ecosystem due to its various benefits:</p>
+        <ul>
+            <li>It is portable and more flexible.</li>
+            <li>It is highly scalable and has efficient resources.</li>
+            <li>It allows collaborative development.</li>
+            <li>It maintains consistency.</li>
+        </ul>
+        <h3>Key Topics to Learn in Docker</h3>
+        <ul>
+            <li>Docker Introduction</li>
+            <li>Docker Installation</li>
+            <li>Docker Commands</li>
+            <li>Dockerfile</li>
+            <li>Docker Images</li>
+            <li>Docker Engine, Storage</li>
+            <li>Docker Compose</li>
+            <li>Docker Containers and Managing Containers</li>
+            <li>Docker Registry</li>
+            <li>Docker Swarm</li>
+        </ul>
+
+        <h2>Kubernetes (Week 10 - 12)</h2>
+        <p><strong>Kubernetes</strong>, popularly known as "K8s", is another open-source platform that automates the deployment and management of large applications. It plays an important role in the journey of becoming a DevOps engineer. Kubernetes makes applications more scalable and helps automate the entire process from start to end. It follows the <strong>IaC</strong> - "Infrastructure as Code" principle to define and manage infrastructure resources.</p>
+        <h3>Key Topics to Learn in Kubernetes</h3>
+        <ul>
+            <li>Introduction to Kubernetes</li>
+            <li>Kubernetes – Installation Methods</li>
+            <li>Installation of Kubernetes on Ubuntu</li>
+            <li>Kubernetes – Architecture</li>
+            <li>Kubernetes – Monolithic Architecture of Kubernetes</li>
+            <li>Kubernetes vs Docker</li>
+            <li>Kubernetes – Concept of Containers</li>
+            <li>Kubernetes – Introduction to Container Orchestration</li>
+            <li>Kubernetes – Namespace</li>
+            <li>Kubernetes – Images</li>
+        </ul>
+        <h2>Miscellaneous (Week - 13)</h2>
+        <p>If you reached this part of the article then you definitely have achieved something. Congrats on completing this roadmap this far. But there is always something left to learn we can't deny that. So, here are some miscellaneous topics that you should keep an eye on.</p>
+        <ul>
+            <li>Terraform</li>
+            <li>Prometheus and Grafana</li>
+            <li>Chef & Puppet</li>
+        </ul>
+        <div class="tool-box">
+            <strong>Note:</strong> You can also learn about different tools used for DevOps and for this, you can refer to the article - <a href="https://www.geeksforgeeks.org/top-10-devops-tools/" target="_blank";>Top 10 DevOps Tools That You Can Try</a>.
+        </div>
+         <h2>Conclusion</h2>
+        <p>Learning new things may be challenging for an individual but once a wise man said - <strong>"Develop a passion for learning. If you do you will never cease to grow"</strong>, we also believe the same, and for that cause only we have incubated all the necessary resources related to DevOps for you in this article. We believe that you would be learning all the topics properly and will try your best to become a successful DevOps engineer.</p>
+        <div class="note-box">
+            <strong>Note:</strong> Then too if you are confused and want to learn DevOps solemnly you can visit our course - <a href="https://www.geeksforgeeks.org/courses/devops-live?utm_campaign=483_complete_devops_roadmap_beginner_to_advanced&utm_medium=gfgcontent_cp&utm_source=geeksforgeeks" target="_blank" style="color: #049c9c;">DevOps Engineering - Planning to Production</a>.
+        
+       
+
+    </div>
+  
+    
+    
+
+
+</body>
+</html>
+
+
