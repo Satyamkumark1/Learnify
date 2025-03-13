@@ -20,6 +20,26 @@ body {
 .container:hover {
     transform: translateY(-5px);
 }
+/* Image Section */
+.img-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img-section img {
+    max-width: 50%; /* Adjust size to be smaller */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img-section img:hover {
+    transform: scale(1.05); /* Slight hover effect for interactivity */
+}
+
 
 h1 {
     text-align: center;
